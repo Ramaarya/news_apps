@@ -1,0 +1,22 @@
+{
+  "mahasiswa": [
+    {
+      "id": "1",
+      "name": "Fadel Rizky",
+      "nim": "2112012000001",
+      "desc": "Aezakmi balalalsdkfnadisubfgadsjbfniuadwjruewuirgyeiugrioqgroieuwgor"
+    },
+    {
+      "id": "2",
+      "name": "Rafif Sadid",
+      "nim": "211202334385434",
+      "desc": "Nama dia Rafif"
+    },
+    {
+      "id": "3",
+      "name": "Muhanif Rafi",
+      "nim": "312394571231237",
+      "desc": "Nama dia Munip"
+    }
+  ]
+}
