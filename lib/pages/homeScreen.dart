@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 // import screen masing tab
 import './tabs_screen/about_tab.dart';
 import './tabs_screen/news_tab.dart';
-import './tabs_screen/team_tab.dart';
+import './tabs_screen/sport_news.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   List<Widget> tabs = const [
-    Team_Tab(),
+    SportNewsTab(),
     NewsTab(),
     AboutTab(),
   ];
@@ -32,12 +32,12 @@ class _HomeScreenState extends State<HomeScreen> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.assignment),
-            label: 'Team',
+            icon: Icon(Icons.sports),
+            label: 'Olahraga',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'budi',
+            label: 'Terbaru',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
